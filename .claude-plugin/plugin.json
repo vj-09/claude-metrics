@@ -1,0 +1,31 @@
+{
+  "name": "claude-metrics",
+  "version": "1.0.0",
+  "description": "GitHub-style metrics dashboard for your Claude Code usage - track tokens, costs, streaks, and productivity",
+  "author": "vj-09",
+  "homepage": "https://github.com/vj-09/claude-metrics",
+  "repository": "https://github.com/vj-09/claude-metrics",
+  "license": "MIT",
+  "keywords": [
+    "metrics",
+    "analytics",
+    "dashboard",
+    "usage",
+    "tokens",
+    "productivity",
+    "statistics",
+    "visualization"
+  ],
+  "commands": [
+    "commands/metrics.md"
+  ],
+  "agents": [
+    "agents/metrics-analyzer.md"
+  ],
+  "skills": [
+    "skills/metrics"
+  ],
+  "engines": {
+    "claude-code": ">=2.0.12"
+  }
+}

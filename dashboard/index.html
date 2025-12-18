@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code Metrics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="tooltip" id="tooltip"></div>
+
+  <div class="header">
+    <h1>Claude Code Metrics</h1>
+    <p class="subtitle">Your AI coding assistant activity</p>
+  </div>
+
+  <div class="dashboard">
+    <!-- GitHub-style Contribution Graph -->
+    <div class="card">
+      <div class="graph-header">
+        <h2>Contribution Activity</h2>
+        <div class="total-prompts" id="totalPromptsLabel">Loading...</div>
+      </div>
+      <div class="contribution-graph" id="contributionGraph">
+        <div style="padding: 20px; color: var(--text-muted);">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-box"><div class="stat-value">-</div><div class="stat-label">Loading...</div></div>
+    </div>
+
+    <!-- Savings -->
+    <div class="card savings-card" id="savingsCard">
+      <div style="color: var(--text-muted);">Loading...</div>
+    </div>
+
+    <!-- Productivity, Models, Tools -->
+    <div class="metric-row">
+      <div class="card" id="productivityCard">
+        <h2>Productivity</h2>
+        <div style="color: var(--text-muted);">Loading...</div>
+      </div>
+      <div class="card" id="modelsCard">
+        <h2>Models</h2>
+        <div style="color: var(--text-muted);">Loading...</div>
+      </div>
+      <div class="card" id="toolsCard">
+        <h2>Top Tools</h2>
+        <div style="color: var(--text-muted);">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Cache & Fun Stats -->
+    <div class="row">
+      <div class="card" id="cacheCard">
+        <h2>Cache Efficiency</h2>
+        <div style="color: var(--text-muted);">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Fun Stats -->
+    <div class="card">
+      <h2>Fun Stats</h2>
+      <div class="fun-grid" id="funGrid">
+        <div style="color: var(--text-muted);">Loading...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

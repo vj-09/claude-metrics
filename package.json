@@ -1,0 +1,42 @@
+{
+  "name": "claude-metrics",
+  "version": "1.0.0",
+  "description": "GitHub-style metrics dashboard for your Claude Code usage - track tokens, costs, streaks, and productivity",
+  "main": "server/index.js",
+  "bin": {
+    "claude-metrics": "server/index.js"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "metrics",
+    "analytics",
+    "dashboard",
+    "usage",
+    "tokens",
+    "productivity",
+    "statistics",
+    "visualization"
+  ],
+  "author": "vj-09",
+  "license": "MIT",
+  "homepage": "https://github.com/vj-09/claude-metrics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vj-09/claude-metrics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vj-09/claude-metrics/issues"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
