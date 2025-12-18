@@ -1,0 +1,18 @@
+{
+  "name": "claude-metrics-marketplace",
+  "owner": {
+    "name": "vj-09",
+    "url": "https://github.com/vj-09"
+  },
+  "plugins": [
+    {
+      "name": "claude-metrics",
+      "source": "./",
+      "description": "GitHub-style metrics dashboard for your Claude Code usage - track tokens, costs, streaks, and productivity",
+      "version": "1.0.0",
+      "author": {
+        "name": "vj-09"
+      }
+    }
+  ]
+}
