@@ -18,26 +18,26 @@ Track tokens, costs, streaks, and productivity with a beautiful dark-themed UI.
 
 ## Quick Start
 
-### Option 1: Clone and Run
+### Option 1: Install as Plugin (Recommended)
 
 ```bash
-git clone https://github.com/vj-09/claude-metrics ~/.claude/plugins/claude-metrics
-cd ~/.claude/plugins/claude-metrics
+# In Claude Code, run:
+/plugin marketplace add vj-09/claude-metrics
+/plugin install claude-metrics@claude-metrics-marketplace
+```
+
+Then use `/metrics` command or just ask Claude about your usage metrics!
+
+### Option 2: Clone and Run Manually
+
+```bash
+git clone https://github.com/vj-09/claude-metrics
+cd claude-metrics
 npm install
 npm start
 ```
 
 Open http://localhost:3456
-
-### Option 2: As Claude Code Plugin
-
-```bash
-# Clone to plugins directory
-git clone https://github.com/vj-09/claude-metrics ~/.claude/plugins/claude-metrics
-cd ~/.claude/plugins/claude-metrics && npm install
-
-# Use the /metrics command in Claude Code
-```
 
 ## Requirements
 
